@@ -1,0 +1,29 @@
+penalty: 0
+practice: false
+has_trace: true
+start_zero: true
+incremental_time: true
+no_next: true
+docs: c-piscine
+levels:
+    - assignments:
+        - fix_a
+        - fix_z
+    - assignments:
+        - rectangle_area
+        - triangle_area
+    - assignments:
+        - ascii_character
+    - assignments:
+        - ft_isdigit
+        - ft_abs    
+    - assignments:
+        - is_consonant
+        - is_vowel
+    - assignments:
+        - ft_mod
+        - ft_pow
+        - ft_div
+    - assignments:
+        - frequency_character
+       

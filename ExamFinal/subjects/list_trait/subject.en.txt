@@ -1,0 +1,168 @@
+Assignment name  : list_trait
+Expected files   : list_trait.c
+Allowed functions: write, exit, free, atoi, malloc
+Version          : 1
+--------------------------------------------------------------------------------
+
+copy and fix the code below so it get a list of numbers anbd create a linked list from them.
+the programe should print the list, sum of the data (the given numbers), the maximum number and the number of nodes.
+
+#include <unistd.h>
+#include <stdlib.h>
+
+typedef struct Node {
+    int data;
+    struct Node *next;
+} Node;
+
+void int_to_str(int num, char *buffer, int *length) {
+    int i = 0;
+    int is_negative = num < 0;
+    if (is_negative) num = -num;
+
+    if (num == 0) {
+        buffer[i++] = '0';
+    } else {
+        while (num > 0) {
+            buffer[i++] = num % 10 + '0';
+            num /= 10;
+        }
+    }
+
+    if (is_negative) buffer[i++] = '-';
+
+    int start = 0, end = i - 1;
+    while (start < end) {
+        char temp = buffer[start];
+        buffer[start] = buffer[end];
+        buffer[end] = temp;
+        start++;
+        end--;
+    }
+
+    *length = i;
+}
+
+
+Node *create_node(int value) {
+    Node *new_node = 
+    if (new_node == NULL) {
+        write(STDERR_FILENO, "Memory error\n", 13);
+        exit(1);
+    }
+
+    return new_node;
+}
+
+void add_node(Node **head, int value) {
+    Node *new_node = create_node(value);
+    
+    if (*head == NULL) {
+        *head = new_node;
+    } else {
+        Node *current = *head;
+        while (current->next != NULL) {
+            current = current->next;
+        }
+        current->next = new_node;
+    }
+}
+
+void print_list(Node *head) {
+    char buffer[20];
+    int len;
+    const char space = ' ';
+    
+    while (head != NULL) {
+        int_to_str(head->data, buffer, &len);
+        write(STDOUT_FILENO, buffer, len);
+        write(STDOUT_FILENO, &space, 1);
+        head = head->next;
+    }
+    write(STDOUT_FILENO, "\n", 1);
+}
+
+int sum_list(Node *head) {
+    int sum = 0;
+
+    while (head != NULL) {
+        sum += head;
+        head = head->next;
+    }
+    return sum;
+}
+
+int max_list(Node *head) {
+    if (head == NULL) return 0;
+    int max = head->data;
+    while (head != NULL) {
+        if (head->data > max) {
+            max = head->data;
+        }
+        head = head->next;
+    }
+    return max;
+}
+
+int count_nodes(Node *head) {
+    int count = 0;
+    while (head != NULL) {
+        count++;
+        head = head->next;
+    }
+    return count;
+}
+
+void free_list(Node *head) {
+    while (head != NULL) {
+        
+    }
+}
+
+int main(int argc, char *argv[]) {
+    if (argc < 2)
+        return 1;
+
+    Node *head = NULL;
+
+    for (int i = 1; i < argc; i++) {
+        add_node(&head, atoi(argv[i]));
+    }
+
+    write(STDOUT_FILENO, "List: ", 6);
+    print_list(head);
+
+    char buffer[20];
+    int len;
+    
+    int sum = sum_list(head);
+    int_to_str(sum, buffer, &len);
+    write(STDOUT_FILENO, "Sum: ", 5);
+    write(STDOUT_FILENO, buffer, len);
+    write(STDOUT_FILENO, "\n", 1);
+
+    int max = max_list(head);
+    int_to_str(max, buffer, &len);
+    write(STDOUT_FILENO, "Max: ", 5);
+    write(STDOUT_FILENO, buffer, len);
+    write(STDOUT_FILENO, "\n", 1);
+
+    int count = count_nodes(head);
+    int_to_str(count, buffer, &len);
+    write(STDOUT_FILENO, "Count: ", 7);
+    write(STDOUT_FILENO, buffer, len);
+    write(STDOUT_FILENO, "\n", 1);
+
+    free_list(head);
+    return 0;
+}
+
+
+examples:
+
+$ ./list_trait 0 -5 8 7
+
+List: 0 -5 8 7
+sum: 10
+Max: 8
+count: 4

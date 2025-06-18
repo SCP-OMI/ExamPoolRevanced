@@ -1,0 +1,20 @@
+
+name: prev_character
+
+unit: c
+
+compile_user: True
+
+white_list:
+
+user_files:
+    - prev_character.c
+
+common_files:
+
+tests:
+    method: typical
+    count: 20
+
+python3: true
+    

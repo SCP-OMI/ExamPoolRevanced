@@ -1,0 +1,20 @@
+name: fix_parser
+
+unit: c
+
+compile_user: True
+
+white_list:
+    - isdigit
+user_files:
+    - fix_parser.c
+
+common_files:
+    - main.c
+
+tests:
+    method: typical
+    count: 30
+
+python3: true
+    

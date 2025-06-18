@@ -1,0 +1,19 @@
+
+name: ft_str_is_alpha
+
+unit: c
+
+compile_user: True
+
+white_list:
+
+user_files:
+  - ft_str_is_alpha.c
+
+common_files:
+  - main.c
+tests:
+    method: typical
+    count: 5
+
+python3: true

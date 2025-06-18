@@ -1,0 +1,22 @@
+Assignment name  : is_vowel
+Expected files   : is_vowel.c
+Allowed functions: write
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a program that check if a character is a vowel or not followed by a newline('\n')
+
+If the number of arguments is not 1, display only a newline.
+
+Example:
+
+$> ./is_vowel 'a' | cat -e
+is vowel$
+$> ./is_vowel 'U' | cat -e
+is vowel$
+$> ./is_vowel 'P' | cat -e
+is not vowel$
+$>./is_vowel | cat -e
+$
+$>./is_vowel "" | cat -e
+$

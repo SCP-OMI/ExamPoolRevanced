@@ -1,0 +1,49 @@
+Assignment name  : sub_complex
+Expected files   : sub_complex.c
+Allowed functions:
+Version          :
+--------------------------------------------------------------------------------
+
+copier and complete  this code, and create the subtraction of 2 numbers complex.
+
+- mathematical formula of subtraction of 2 complex numbers is :
+		(a + bi) - (c + di) = (a - c) + (b - d)i;
+
+
+#include <stdio.h>
+
+typedef struct complexNumber {
+	int real;
+	int img;
+} complex;
+
+void sub_Complex(complex num1, complex num2, complex *num3)
+{
+
+}
+
+int main(int ac, char **av)
+{
+	if (ac != 5){
+		printf("\n");
+		return 0;
+	}
+	
+	complex a, b, sub;
+
+	a.real = atoi(av[1]);
+	a.img = atoi(av[2]);;
+
+	b.real = atoi(av[3]);
+	b.img = atoi(av[4]);
+
+	printf("\n a = %d + %di", a.real, a.img);
+
+	printf("\n b = %d + %di", b.real, b.img);
+
+
+	sub_Complex(a, b, sub);
+	printf("\n sub = %d + %di", sub.real, sub.img);
+
+	return 0;
+}

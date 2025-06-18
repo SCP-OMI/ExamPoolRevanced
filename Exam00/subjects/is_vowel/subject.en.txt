@@ -1,0 +1,18 @@
+Assignment name  : is_vowel_v1
+Expected files   : is_vowel_v1.c
+Allowed functions: 
+Version          : v1
+--------------------------------------------------------------------------------
+
+Write a function that check if a character is a vowel or not;
+
+Your function must be declared as follows:
+    int is_vowel(char c):
+
+Example:
+
+    $> is_vowel('a') = 1
+    $> is_vowel('U') = 1
+    $> is_vowel('P') = 0
+    $> is_vowel ('z') = 0
+

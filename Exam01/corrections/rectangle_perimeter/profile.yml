@@ -1,0 +1,20 @@
+
+name: rectangle_perimeter
+
+unit: c
+
+compile_user: True
+
+white_list:
+
+user_files:
+    - rectangle_perimeter.c
+
+common_files:
+    - main.c
+tests:
+    method: typical
+    count: 7
+
+python3: true
+    

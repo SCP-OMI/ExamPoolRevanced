@@ -1,0 +1,18 @@
+Assignment name  : ft_div
+Expected files   : ft_div.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that takes two parameters:
+
+First: a pointer to an integer and
+Second: an integer.
+
+This function will update the contents of the pointer by dividing it by the integer received as the second parameter.
+
+ - If number is zero, the function must not modify ptr.
+
+Your function must be declared as follows:
+
+void ft_div(int *ptr, int number);

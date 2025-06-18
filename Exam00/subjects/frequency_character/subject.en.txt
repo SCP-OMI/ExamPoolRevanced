@@ -1,0 +1,17 @@
+Assignment name  : frequency_character_v1
+Expected files   : frequency_character_v1.c
+Allowed functions:
+Version          : v1
+--------------------------------------------------------------------------------
+
+Write a function that returns number of frequency of a character in the given string.
+    - If not c, or string is Null return 0; 
+
+Your function must be declared as follows:
+    - int frequency_character(char c, char *str);
+
+Example
+
+$> frequency_character('l', "Hello world!") = 3
+$> frequency_character('x', "Hello world!") = 0
+$> frequency_character('h', "Hello world!") = 0

@@ -1,0 +1,11 @@
+Assignment name  : ft_strcat
+Expected files   : ft_strcat.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Reproduce the behavior of the function strcat (man strcat).
+
+Your function must be declared as follows:
+
+char *strcat(char *restrict s1, const char *restrict s2);

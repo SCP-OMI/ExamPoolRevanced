@@ -1,0 +1,19 @@
+Assignment name  : next_character
+Expected files   : next_character.c
+Allowed functions: write
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a program that returns the next character followed by a newline ("\n").
+
+If the number of arguments is other than 1, display only a newline.
+
+Example:
+
+$> ./next_character 'A' | cat -e
+B$
+$> ./next_character 'z' | cat -e
+a$
+$>./next_character | cat -e
+$
+$>./next_character "" | cat -e

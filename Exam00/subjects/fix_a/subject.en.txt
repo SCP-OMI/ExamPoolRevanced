@@ -1,0 +1,13 @@
+Assignment name  : fix_a
+Expected files   : fix_a.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Copy and correct the code below so that it prints the character "a" followed by a newline "\n".
+
+int main()
+{
+    write(5, 1, "a\n",2);
+    return 0;
+}

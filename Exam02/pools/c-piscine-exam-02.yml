@@ -1,0 +1,38 @@
+penalty: 0
+practice: false
+has_trace: true
+start_zero: true
+incremental_time: true
+no_next: true
+docs: c-piscine
+levels:
+    - assignments:
+        - volume_cube
+        - volume_cuboid
+    - assignments:
+        - smallest_number
+        - largest_number
+    - assignments:
+        - ft_str_is_alpha
+        - ft_strdiff
+    - assignments:
+        - prev_character
+        - next_character
+    - assignments:
+        - ft_strchr
+        - ft_strstr
+    - assignments:
+        - ascii_character_v2
+        - ft_strcat
+    - assignments:
+        - ft_bubblesort
+        - sort_words
+    - assignments:
+        - ft_strjoin
+        - ft_strndup
+    - assignments:
+        - binary_to_decimal
+        - decimal_to_binary
+    - assignments:
+        - fix_parser
+        - fix_result

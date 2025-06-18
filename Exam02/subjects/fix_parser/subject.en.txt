@@ -1,0 +1,47 @@
+Assignment name  : fix_parser
+Expected files   : fix_parser.c
+Allowed functions: isdigit
+Version          : 1
+--------------------------------------------------------------------------------
+
+copy and fix the code below. so it check if an input is correct or not
+
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+
+int is_valid_expression(const char *str) {
+    int i = 0;
+
+    while (str[i] == ' ') i++;
+
+    if (str[i] == '\0') return 1;
+
+    if (!isnumber(str[i])) return 1;
+
+    while (str[i] != '\0') {
+        if (isnumber(str[i])) {
+            i++;
+        }
+        else if (str[i] == '+' || str[i] == '*' || str[i] == '/') {
+            i++;
+            while (str[i] == ' ') i++;
+            if (!isnumber(str[i])) return 1;
+        }
+        else if (str[i] == '') {
+            i++;
+        }
+        else {
+            return 0;
+        }
+    }
+
+    return 1;
+}
+
+examples:
+
+$>./validator "5+3*2" --> true (1)
+$>./validator "10 / 2" --> true (1)
+$>./validator "7 + * 3" --> false (0)
+$>./validator "abc"     --> false (0)

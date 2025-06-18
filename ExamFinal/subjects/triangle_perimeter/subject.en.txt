@@ -1,0 +1,18 @@
+Assignment name  : triangle_perimeter
+Expected files   : triangle_perimeter.c
+Allowed functions:
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a function to calculate the perimeter of a triangle:
+    - mathematical formula for the perimeter of a triangle (a + b + c).
+with a, b, and c as the sides of the triangle;
+
+Your function must be declared as follows:
+    int perimeter_triangle(int a, int b, int c):
+
+Example:
+$>./triangle_perimeter "1" "3" " 1" | cat -e
+5$
+$>./triangle_perimeter "" | cat -e
+$

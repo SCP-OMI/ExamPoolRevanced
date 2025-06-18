@@ -1,0 +1,37 @@
+penalty: 0
+practice: false
+has_trace: true
+start_zero: true
+incremental_time: true
+no_next: true
+docs: c-piscine
+levels:
+    - assignments:
+        - fix_a
+        - fix_z
+    - assignments:
+        - rectangle_perimeter
+        - triangle_perimeter
+    - assignments:
+        - next_character
+        - prev_character
+    - assignments:
+        - ft_str_is_alpha
+        - ft_strdiff
+    - assignments:
+        - ft_abs
+        - factorial_number
+        - sum_n
+    - assignments:
+        - remove_duplicate
+        - remove_vowels
+    - assignments:
+        - ft_pow
+        - ft_sqrt
+    - assignments:
+        - ft_strcat
+        - ascii_character_v2
+    - assignments:
+        - length_words
+    - assignments:
+        - ft_strjoin

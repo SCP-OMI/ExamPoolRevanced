@@ -1,0 +1,16 @@
+Assignment name  : ft_abs
+Expected files   : ft_abs.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that returns the absolute value of an integer.
+
+Your function must be declared as follows:
+    - int ft_abs(int n);
+
+Examples:
+
+$>./ft_abs(-42)  → 42  
+$>./ft_abs(0)    → 0
+$>./ft_abs(99)   → 99

@@ -1,0 +1,13 @@
+Assignment name  : volume_cuboid
+Expected files   : volume_cuboid.c
+Allowed functions:
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a function to find volume of cuboid
+    - mathematical formula of cuboid volume (l * b * h).
+    with  'l' length of cuboid, 'b' base of cuboid, and h height of cuboid;
+
+Your function must be declared as follows:
+    int     volume_cuboid(int l, int b, int h):
+

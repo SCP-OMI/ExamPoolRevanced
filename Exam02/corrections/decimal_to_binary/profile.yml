@@ -1,0 +1,19 @@
+
+name: decimal_to_binary
+
+unit: c
+
+compile_user: True
+
+white_list:
+
+user_files:
+    - decimal_to_binary.c
+
+common_files:
+
+tests:
+    method: typical
+    count: 8
+
+python3: true

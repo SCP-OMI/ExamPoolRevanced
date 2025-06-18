@@ -1,0 +1,19 @@
+Assignment name  : ft_mod
+Expected files   : ft_mod.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that takes two parameters:
+
+First: a pointer to an integer (int *ptr).
+Second: an integer (int number).
+
+This function updates the contents of the pointer by calculating the remainder of the value pointed to by ptr after 
+dividing it by the integer received as the second parameter.
+
+    - If number is zero, the function must not modify ptr.
+
+Your function must be declared as follows:
+
+void ft_mod(int *ptr, int number);

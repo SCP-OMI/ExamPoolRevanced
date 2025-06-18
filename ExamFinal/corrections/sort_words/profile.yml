@@ -1,0 +1,19 @@
+
+name: sort_words
+
+unit: c
+
+compile_user: True
+
+white_list:
+    - write
+user_files:
+    - sort_words.c
+common_files:
+
+tests:
+    method: typical
+    count: 6
+
+python3: true
+    

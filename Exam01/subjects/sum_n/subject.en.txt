@@ -1,0 +1,15 @@
+Assignment name  : sum_n
+Expected files   : sum_n.c
+Allowed functions:
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a function that takes an intger (n) as an argument and return the sum of all previews numbers to n:
+
+Your function must be declared as follows:
+    int sum_n(int n):
+
+Example:
+
+    sum_n(3) -> 1+2+3 = 6
+    sum_n(21) -> 1+2+3+...+21 = 231

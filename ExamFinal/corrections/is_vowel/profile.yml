@@ -1,0 +1,18 @@
+name: is_vowel
+
+unit: c
+
+compile_user: True
+
+white_list:
+    - write
+user_files:
+    - is_vowel.c
+
+common_files:
+
+tests:
+    method: typical
+    count: 8
+
+python3 : true

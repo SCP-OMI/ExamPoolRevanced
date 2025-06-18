@@ -1,0 +1,20 @@
+
+name: ft_strstr
+
+unit: c
+
+compile_user: True
+
+white_list:
+
+user_files:
+    - ft_strstr.c
+
+common_files:
+    - main.c
+tests:
+    method: typical
+    count: 10
+
+python3: true
+    

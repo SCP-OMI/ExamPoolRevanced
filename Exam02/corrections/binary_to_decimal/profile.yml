@@ -1,0 +1,19 @@
+
+name: binary_to_decimal
+
+unit: c
+
+compile_user: True
+
+white_list:
+
+user_files:
+    - binary_to_decimal.c
+
+common_files:
+
+tests:
+    method: typical
+    count: 7
+
+python3: true

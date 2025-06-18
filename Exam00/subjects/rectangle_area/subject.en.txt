@@ -1,0 +1,16 @@
+Assignment name  : rectangle_area
+Expected files   : rectangle_area.c
+Allowed functions: 
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a function to calculate the area of ​​a rectangle: 
+    - mathematical formula for the area of ​​a rectangle (length * width).
+
+Your function must be declared as follows:
+    int rectangle_area(int length, int width):
+
+Example:
+
+    $> rectangle_area(1, 3) = 3
+    $> rectangle_area(12, 3) = 36

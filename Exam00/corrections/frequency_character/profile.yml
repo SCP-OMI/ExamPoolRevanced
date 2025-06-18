@@ -1,0 +1,20 @@
+
+name: frequency_character
+
+unit: c
+
+compile_user: True
+
+white_list:
+
+user_files:
+    - frequency_character.c
+common_files:
+    - main.c
+
+tests:
+    method: typical
+    count: 7
+
+python3: true
+    

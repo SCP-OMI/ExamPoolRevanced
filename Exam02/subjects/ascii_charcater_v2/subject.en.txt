@@ -1,0 +1,19 @@
+Assignment name  : ascii_character_v2
+Expected files   : ascii_character_v2.c
+Allowed functions: write
+Version          : 2
+--------------------------------------------------------------------------------
+
+Write a program that displays an ASCII character followed by a newline ("\n").
+
+If the number of arguments is not 1, display only a newline.
+
+Example:
+
+$> ./ascii_character_v2 'A' | cat -e
+65$
+$> ./ascii_character_v2 'z' | cat -e
+122$
+$>./ascii_character_v2 | cat -e
+$
+$>./ascii_character_v2 "" | cat -e

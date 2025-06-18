@@ -1,0 +1,13 @@
+Assignment name  : volume_cube
+Expected files   : volume_cube.c
+Allowed functions:
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a function to find volume of cube
+    - mathematical formula of cube volume (a ^ 3).
+    with 'a' side of cube;
+
+Your function must be declared as follows:
+    int     volume_cube(int a):
+

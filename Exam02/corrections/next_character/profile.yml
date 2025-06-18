@@ -1,0 +1,20 @@
+
+name: next_character
+
+unit: c
+
+compile_user: True
+
+white_list:
+
+user_files:
+    - next_character.c
+
+common_files:
+
+tests:
+    method: typical
+    count: 20
+
+python3: true
+    

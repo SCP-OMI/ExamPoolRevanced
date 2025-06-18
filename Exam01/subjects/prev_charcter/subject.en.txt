@@ -1,0 +1,14 @@
+Assignment name  : prev_character_v1
+Expected files   : prev_character_v1.c
+Allowed functions: 
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that  returns the previous character followed by a newline ("\n").
+
+Your function must be declared as follows:
+    char prev_character(char c);
+
+Example:
+    $>  prev_character ('B') = A
+    $>  prev_character('a') = z

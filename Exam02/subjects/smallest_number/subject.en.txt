@@ -1,0 +1,16 @@
+Assignment name  : smallest_number
+Expected files   : smallest_number.c
+Allowed functions:
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a function that takes 3 integer  and returns the smallest number of them.
+
+Your function must be declared as follows:
+    int smallest_number(int n1, int n2, int n3);
+
+Example:
+
+    $> smallest_number(3, 14 ,96) = 3
+    $> smallest_number(63, 14, 16) = 14
+

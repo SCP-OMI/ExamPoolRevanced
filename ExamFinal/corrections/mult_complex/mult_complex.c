@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct complexNumber {
+	int real;
+	int img;
+} complex;
+
+void mult_Complex(complex num1, complex num2, complex *num3)
+{
+	// (a + bi)(c + di) = (ac - bd) + (ad + bc)i
+	num3->real = (num1.real * num2.real) - (num1.img * num2.img);
+	num3->img  = (num1.real * num2.img) + (num1.img * num2.real);
+}
+
+int main(int ac, char **av)
+{
+	if (ac != 5){
+		printf("\n");
+		return 0;
+	}
+	
+	complex a, b, product;
+
+	a.real = atoi(av[1]);
+	a.img = atoi(av[2]);;
+
+	b.real = atoi(av[3]);
+	b.img = atoi(av[4]);
+
+	printf("\n a = %d + %di", a.real, a.img);
+
+	printf("\n b = %d + %di", b.real, b.img);
+
+
+	mult_Complex(a, b, product);
+	printf("\n product = %d + %di", product.real, product.img);
+
+	return 0;
+}
+

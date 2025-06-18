@@ -1,0 +1,19 @@
+Assignment name  : length_words
+Expected files   : length_words.c
+Allowed functions: write
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a Program to count length of each word in a string followed by a newline ("\n")
+
+If the number of arguments is not 1, display only a newline. 
+
+
+Example:
+
+$> ./length_words "Hello world!" | cat -e
+5, 6$
+$> ./length_words "Hi there how are you?" | cat -e
+2, 5, 3, 3, 4$
+$>./length_words "" | cat -e
+$

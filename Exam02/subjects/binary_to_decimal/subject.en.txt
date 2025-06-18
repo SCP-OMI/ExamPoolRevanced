@@ -1,0 +1,37 @@
+Assignment name  : binary_to_decimal
+Expected files   : binary_to_decimal.c
+Allowed functions: write, toi
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a program to convert a number from binary to decimal.
+
+If the number of arguments is not 1, or if the argument contains characters other than '0' or '1', display only a newline.
+
+Explanation:
+Binary to decimal conversion involves converting a base-2 number (composed of 0s and 1s) to its equivalent base-10 representation.
+The process works by multiplying each binary digit by its corresponding power of 2 and summing the results:
+
+1. Start from the rightmost digit (least significant bit)
+2. Multiply each digit by 2 raised to the power of its position index (starting from 0)
+3. Sum all these values to get the decimal equivalent
+
+Example conversion for "101":
+1*(2²) + 0*(2¹) + 1*(2⁰) = 4 + 0 + 1 = 5 (decimal)
+
+Your program should:
+1. Validate the input contains only '0's and '1's
+2. Implement the conversion algorithm
+3. Handle edge cases (empty string, invalid characters)
+
+Examples:
+$>./binary_to_decimal "010" | cat -e
+2$
+$>./binary_to_decimal "1000100001" | cat -e
+545$
+$>./binary_to_decimal "53" | cat -e
+$
+$>./binary_to_decimal "ftughbj" | cat -e
+$
+$>./binary_to_decimal "" | cat -e
+$

@@ -1,0 +1,16 @@
+Assignment name  : ascii_character_v1
+Expected files   : ascii_character_v1.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that returns  ASCII character.
+
+Your function must be declared as follows:
+    int ascii_character(char c):
+
+Example:
+
+    $> ascii_character('A') = 65
+    $> ascii_character('z') = 122
+    $> ascii_character('B') = 66

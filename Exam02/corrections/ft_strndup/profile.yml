@@ -1,0 +1,21 @@
+name: ft_strndup
+
+unit: c
+
+compile_user: True
+
+white_list:
+    - malloc
+    - free
+user_files:
+    - ft_strndup.c
+
+common_files:
+    - main.c
+
+tests:
+    method: typical
+    count: 7
+
+python3: true
+    

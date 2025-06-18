@@ -1,0 +1,25 @@
+Assignment name  : ft_pow
+Expected files   : ft_pow.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that takes two parameters:
+
+A pointer to an integer (int *ptr).
+An integer (int number).
+
+This function will update the contents of the pointer by raising the value pointed to by ptr to the power of the integer received as the second parameter.
+
+Your function must be declared as follows:
+
+    void ft_pow(int *ptr, int number);
+
+Examples:
+
+$>./ft_pow(-2, 3) = -8
+$>./ft_pow(-2, 4) = 16
+$>./ft_pow(5, -3) = 0
+$>./ft_pow(0, 3) = 0
+$>./ft_pow(0, 0) = 1
+$>./ft_pow(0, -2) = 1

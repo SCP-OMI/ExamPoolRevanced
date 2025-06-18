@@ -1,0 +1,34 @@
+#The name of the assignment. Must be the same as the directory it's in, and must be the same as in the subject, obviously
+name: ASSIGNMENT_NAME
+
+#The correction class to use. Typical ones are "c" or "cpp", or you can use "custom" to specify your own unit.py
+#class, but that's more advanced, so just ask zaz if you need that.
+unit: c
+
+#This mostly never changes. It tells deepthought it needs to compile files from the user to generate a program.
+compile_user: True
+
+#List of functions that are allowed in this assignment. Must be identical to those in the subject, obviously.
+white_list:
+    - write
+	- malloc
+	- free
+
+#List of files that will be taken from the user's directory to be compiled. Must be the same as in the subject.
+#If you need to use * in the names, enclose them in "". For example, "*.c". Otherwise, the YAML parser would
+#not work correctly
+user_files:
+    - file1.c
+	- file2.c
+
+#List of files that will be taken from the correction directory to be compiled.
+#It's typically empty if you ask the user to turn in a full program, but if you ask the user to turn in a
+#single function, and you want to compile with your own main.c, here's where you should put it.
+common_files:
+
+#Test section.
+#In most cases you just need to adjust the "count" value to specify the number of tests you have put in
+#the correction directory. Test files numbers start at 1.
+tests:
+    method: typical
+    count: 7

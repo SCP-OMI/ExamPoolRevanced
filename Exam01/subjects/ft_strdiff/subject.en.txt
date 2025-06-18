@@ -1,0 +1,19 @@
+Assignment name  : ft_strdiff
+Expected files   : ft_strdiff.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that finds the first differing character between two strings and returns its index.
+    - If the strings are identical, return -1.
+
+Your function must be declared as follows:
+    char *ft_strdiff(const char *src, size_t n);
+
+Examples:
+
+$>./ft_strdiff("hello", "hella")  →  4  
+$>./ft_strdiff("test", "test")  →  -1  
+$>./ft_strdiff("abc", "abcd")  →  3  
+$>./ft_strdiff("abcd", "abc")  →  3  
+$>./ft_strdiff("", "abc")  →  0

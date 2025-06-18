@@ -1,0 +1,18 @@
+Assignment name  : rectangle_perimeter
+Expected files   : rectangle_perimeter.c
+Allowed functions:
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a function to calculate the perimeter of a rectangle: 
+    - mathematical formula for rectangle perimeter ((2 * length) + (2 * width)).
+
+Your function must be declared as follows:
+    int rectangle_perimeter(int length, int width):
+
+Example:
+$>./rectangle_perimeter "1" "3" | cat -e
+8$
+$>./rectangle_perimeter "" | cat -e
+$
+

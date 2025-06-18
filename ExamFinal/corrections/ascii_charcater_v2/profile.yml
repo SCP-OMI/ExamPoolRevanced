@@ -1,0 +1,19 @@
+
+name: ascii_character_v2
+
+unit: c
+
+compile_user: True
+
+white_list:
+    - write
+
+user_files:
+    - ascii_character_v2.c
+common_files:
+
+tests:
+    method: typical
+    count: 20
+
+python3: true

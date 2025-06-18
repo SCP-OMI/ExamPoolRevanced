@@ -1,0 +1,37 @@
+Assignment name  : decimal_to_binary
+Expected files   : decimal_to_binary.c
+Allowed functions: write, atoi
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a program to convert a number from decimal to binary.
+
+If the number of arguments is not 1, display only a newline.
+
+Explanation:
+Decimal to binary conversion involves representing a base-10 number using only 0s and 1s (base-2).
+The process works by repeatedly dividing the number by 2 and recording the remainders:
+
+1. Divide the decimal number by 2
+2. Record the remainder (this will be 0 or 1)
+3. Continue dividing the quotient by 2 until it becomes 0
+4. The binary number is the sequence of remainders read in reverse order
+
+Example conversion for 5:
+5 ÷ 2 = 2 remainder 1
+2 ÷ 2 = 1 remainder 0
+1 ÷ 2 = 0 remainder 1
+
+Reading remainders in reverse: 101
+
+
+
+Examples:
+$>./decimal_to_binary "2" | cat -e
+10$
+$>./decimal_to_binary "5" | cat -e
+101$
+$>./decimal_to_binary "545" | cat -e
+1000100001$
+$>./decimal_to_binary "" | cat -e
+$

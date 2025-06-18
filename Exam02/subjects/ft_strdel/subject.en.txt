@@ -1,0 +1,11 @@
+Assignment name  : ft_strdel
+Expected files   : ft_strdel.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that frees the memory allocated for a string and sets its pointer to NULL.
+
+Your function must be declared as follows:
+
+void ft_strdel(char **str);

@@ -1,0 +1,11 @@
+Assignment name  : ft_div
+Expected files   : ft_div.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that returns the division of a two integers numbers:
+    - if the n2 is 0 return 1;
+
+Your function must be declared as follows:
+    void ft_div(int n1, int n2);

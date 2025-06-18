@@ -1,0 +1,21 @@
+Assignment name  : remove_vowels
+Expected files   : remove_vowels.c
+Allowed functions: write
+Version          : 
+--------------------------------------------------------------------------------
+
+
+Write a Program to remove all vowels from an input string.
+
+If the number of arguments is not 1, display only a newline.
+
+Example:
+
+$> ./remove_vowels "Hi there, how are you?" | cat -e
+H thr, hw r y?$
+$> ./remove_vowels "Hello world!" | cat -e
+Hll wrld!$
+$>./remove_vowels | cat -e
+$
+$>./remove_vowels "" | cat -e
+$

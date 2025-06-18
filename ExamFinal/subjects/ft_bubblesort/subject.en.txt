@@ -1,0 +1,14 @@
+Assignment name  : ft_bubblesort
+Expected files   : ft_bubblesort.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that sorts an array of integers using the Bubble Sort algorithm.
+
+Explanation:
+    Bubble sort is a sorting algorithm that compares two adjacent elements and swaps 
+        them until they are in the intended order.
+
+Your function must be declared as follows:
+    void ft_bubblesort(int *arr, int size);

@@ -1,0 +1,20 @@
+
+name: fix_loop
+
+unit: c
+
+compile_user: True
+
+white_list:
+
+
+user_files:
+    - fix_loop.c
+
+common_files:
+     - main.c
+tests:
+    method: typical
+    count: 3
+
+python3: true

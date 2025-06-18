@@ -1,0 +1,20 @@
+
+name: sum_complex
+
+unit: c
+
+compile_user: True
+
+white_list:
+    - printf
+    - atoi
+user_files:
+    - sum_complex.c
+
+common_files:
+
+tests:
+    method: typical
+    count: 6
+
+python3: true

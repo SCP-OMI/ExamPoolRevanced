@@ -1,0 +1,19 @@
+Assignment name  : prev_character
+Expected files   : prev_character.c
+Allowed functions: write
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a program that returns the previous character followed by a newline ("\n").
+
+If the number of arguments is other than 1, only a newline is displayed.
+
+Example:
+
+$> ./prev_character 'B' | cat -e
+A$
+$> ./prev_character 'a' | cat -e
+z$
+$>./prev_character | cat -e
+$
+$>./prev_character "" | cat -e

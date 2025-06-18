@@ -1,0 +1,16 @@
+Assignment name  : factorial_number
+Expected files   : factorial_number.c
+Allowed functions:
+Version          : 
+--------------------------------------------------------------------------------
+
+
+Write a function to find the factorial of a number.
+Your function must be declared as follows:
+    int     factorial_number(int num):
+
+Example:
+
+    factorial_number (5) -> 1*2*3*4*5 = 120
+    factorial_number (2) -> 1*2 = 2
+    factorial_number (0) -> 1

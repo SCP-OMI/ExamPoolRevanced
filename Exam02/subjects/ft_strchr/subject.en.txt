@@ -1,0 +1,12 @@
+Assignment name  : ft_strchr
+Expected files   : ft_strchr.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that searches for the first occurrence of a character in a string.
+If the character is found, return a pointer to the first occurrence; otherwise, return NULL.
+
+Your function must be declared as follows:
+
+char *ft_strchr(const char *str, char c);

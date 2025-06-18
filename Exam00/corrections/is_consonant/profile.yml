@@ -1,0 +1,19 @@
+name: is_consonant
+
+unit: c
+
+compile_user: True
+
+white_list:
+    
+user_files:
+    - is_consonant.c
+common_files:
+    - main.c
+
+tests:
+    method: typical
+    count: 10
+
+python3: true
+    

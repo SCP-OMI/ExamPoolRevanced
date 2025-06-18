@@ -1,0 +1,19 @@
+name: ft_bubblesort
+
+unit: c
+
+compile_user: True
+
+white_list:
+
+user_files:
+    - ft_bubblesort.c
+
+common_files: 
+    - main.c
+
+tests:
+    method: typical
+    count: 5
+
+python3: true

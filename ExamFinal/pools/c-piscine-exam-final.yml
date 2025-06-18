@@ -1,0 +1,57 @@
+penalty: 0
+practice: false
+has_trace: true
+start_zero: true
+incremental_time: true
+no_next: true
+docs: c-piscine
+levels:
+    - assignments:
+        - fix_a
+        - fix_z
+    - assignments:
+        - volume_cube
+        - volume_cuboid
+    - assignments:
+        - smallest_number
+        - largest_number
+    - assignments:
+        - ft_abs
+        - factorial_number
+        - sum_n
+    - assignments:
+        - next_character
+        - prev_character
+    - assignments:
+        - fix_loop
+    - assignments:
+        - is_consonant
+        - is_vowel
+    - assignments:
+        - remove_duplicate
+        - remove_vowels
+    - assignments:
+        - ft_mod
+        - ft_pow
+        - ft_div
+        - ft_sqrt
+    - assignments:
+        - naahio
+    - assignments:
+        - binary_to_decimal
+        - decimal_to_binary
+    - assignments:
+        - ft_bubblesort
+        - sort_words
+    - assignments:
+        - ft_strdiff
+        - ft_strstr
+    - assignments:
+        - ft_strjoin
+        - ft_strndup
+    - assignments:
+        - add_complex
+        - sub_complex
+        - mult_complex
+    - assignments:
+        - list_trait

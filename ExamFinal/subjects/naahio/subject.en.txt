@@ -1,0 +1,24 @@
+Assignment name  : naahio
+Expected files   : naahio.c
+Allowed functions: write
+Version          : 
+--------------------------------------------------------------------------------
+
+write a program receives one string as a argument (may include spaces as underscores _).
+
+Your program:
+
+
+    - Replaces '_' with real spaces,
+
+    - Reverses the order of the words.
+
+    - Counts vowels,
+
+    - Prints final message + vowel count.
+
+example:
+
+$ ./naahio Hello_Open_AI_is_cool
+> Reversed: cool is AI Open Hello
+> Vowel count: 10

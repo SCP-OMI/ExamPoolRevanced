@@ -1,0 +1,20 @@
+Assignment name  : sort_words
+Expected files   : sort_words.c
+Allowed functions: write
+Version          : 
+--------------------------------------------------------------------------------
+
+
+
+Write a program to sort the words of the string in alphabetical order.
+
+If the number of arguments is not 1, display only a newline. 
+
+Example:
+
+$> ./sort_words "Is Are Am" | cat -e
+Am Are Is$
+$> ./sort_words "banana cat apple" | cat -e
+apple banana cat$
+$>./sort_words "" | cat -e
+$

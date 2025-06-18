@@ -1,0 +1,19 @@
+
+name: volume_cube
+
+unit: c
+
+compile_user: True
+
+white_list:
+
+user_files:
+    - volume_cube.c
+common_files:
+    - main.c
+tests:
+    method: typical
+    count: 5
+
+python3: true
+    

@@ -1,0 +1,14 @@
+Assignment name  : largest_number
+Expected files   : largest_number.c
+Allowed functions:
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a function take 3 variables integer and returns the largest numbers of them
+
+Your function must be declared as follows:
+    int largest_number(int n1, int n2, int n3);
+Example:
+
+    $> largest_number(3, 14, 96) = 96
+    $> largest_number(63, 14, 16) = 63

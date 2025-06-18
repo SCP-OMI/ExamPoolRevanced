@@ -1,0 +1,22 @@
+
+name: list_trait
+
+unit: c
+
+compile_user: True
+
+white_list:
+    - write
+    - atoi
+    - malloc
+    - exit
+user_files:
+    - list_trait.c
+
+common_files:
+
+tests:
+    method: typical
+    count: 6
+
+python3: true

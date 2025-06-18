@@ -1,0 +1,15 @@
+Assignment name  : next_character_v1
+Expected files   : next_character_v1.c
+Allowed functions: 
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that returns the next character.
+
+Your function must be declared as follows:
+    char next_character(char c);
+
+Example:
+
+    $> next_character('A') = B
+    $> next_character('z') = a

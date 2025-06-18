@@ -1,0 +1,16 @@
+Assignment name  : triangle_area
+Expected files   : triangle_area.c
+Allowed functions:
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a function to calculate the area of ​​a triangle: 
+    - mathematical formula for the area of ​​a triangle ((base * height) / 2).
+
+Your function must be declared as follows:
+    int triangle_area(int base, int height):
+
+Example:
+
+    $> triangle_area(2, 4) = 6
+    $> triangle_area(1, 2) = 1

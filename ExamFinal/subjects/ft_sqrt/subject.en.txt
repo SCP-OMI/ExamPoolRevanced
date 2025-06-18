@@ -1,0 +1,17 @@
+Assignment name  : ft_sqrt
+Expected files   : ft_sqrt.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that takes two parameters:
+
+A pointer to an integer (int *ptr).
+An integer (int number).
+
+This function will update the contents of the pointer by calculating the square root of the integer received as the second parameter.
+    - If the square root is an integer, store the result in *ptr. 
+    - If the number doesn't have an integer square root, set the value of *ptr to -1 to indicate an invalid square root.
+
+Your function must be declared as follows:
+    void ft_sqrt(int *ptr, int number);

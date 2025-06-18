@@ -1,0 +1,24 @@
+Assignment name  : is_consonant
+Expected files   : is_consonant.c
+Allowed functions: write
+Version          : 
+--------------------------------------------------------------------------------
+
+Write a program that check if a character is a consonant or not followed by a newline('\n')
+
+If the number of arguments is not 1, display only a newline.
+
+Example:
+
+$> ./is_consonant 'b' | cat -e
+is consonant$
+$> ./is_consonant 'C' | cat -e
+is consonant$
+$> ./is_consonant 'o' | cat -e
+is not consonant$
+$> ./is_consonant 'A' | cat -e
+is not consonant$
+$>./is_consonant | cat -e
+$
+$>./is_consonant "" | cat -e
+$

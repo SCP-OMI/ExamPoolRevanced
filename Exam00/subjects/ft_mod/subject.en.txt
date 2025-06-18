@@ -1,0 +1,12 @@
+Assignment name  : ft_mod
+Expected files   : ft_mod.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that returns the modulo of a two integers numbers:
+    - if n2 is 0 return 1;
+
+Your function must be declared as follows:
+
+    int ft_mod(int n1, int n2);

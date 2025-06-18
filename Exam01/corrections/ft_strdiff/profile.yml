@@ -1,0 +1,20 @@
+
+name: ft_strdiff
+
+unit: c
+
+compile_user: True
+
+white_list:
+
+user_files:
+    - ft_strdiff.c
+
+common_files:
+    - main.c
+tests:
+    method: typical
+    count: 6
+
+python3: true
+    

@@ -1,0 +1,19 @@
+
+name: sum_n
+
+unit: c
+
+compile_user: True
+
+white_list:
+
+user_files:
+    - sum_n.c
+common_files:
+    - main.c
+tests:
+    method: typical
+    count: 12
+
+python3: true
+    

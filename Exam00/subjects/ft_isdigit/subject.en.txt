@@ -1,0 +1,15 @@
+Assignment name  : ft_isdigit
+Expected files   : ft_isdigit.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that checks if a character is a digit (1-9).
+
+    With: 
+        - code ASCII of 1 is 49
+        - code ASCII of 9 is 57
+
+Your function must be declared as follows:
+
+int ft_isdigit(int c);

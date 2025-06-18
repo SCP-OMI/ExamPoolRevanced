@@ -1,0 +1,21 @@
+name: ft_strjoin
+
+unit: c
+
+compile_user: True
+
+white_list:
+    - malloc
+    - free
+    - write
+
+user_files:
+    - ft_strjoin.c
+
+common_files:
+    - main.c
+tests:
+    method: typical
+    count: 10
+
+python3: true

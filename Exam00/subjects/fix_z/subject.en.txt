@@ -1,0 +1,13 @@
+Assignment name  : fix_z
+Expected files   : fix_z.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Copy and correct the code below so that it prints the character "z" followed by a newline "\n".
+
+int main()
+{
+    write(1, "a\n"),
+    return 0;
+}

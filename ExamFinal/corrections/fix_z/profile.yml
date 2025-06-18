@@ -1,0 +1,20 @@
+
+name: fix_z
+
+unit: c
+
+compile_user: True
+
+white_list:
+    - write
+
+user_files:
+    - fix_z.c
+
+common_files:
+
+tests:
+    method: typical
+    count: 3
+
+python3: true

@@ -1,0 +1,20 @@
+
+name: smallest_number
+
+unit: c
+
+compile_user: True
+
+white_list:
+
+user_files:
+    - smallest_number.c
+
+common_files:
+    - main.c
+tests:
+    method: typical
+    count: 7
+
+python3: true
+    

@@ -1,0 +1,104 @@
+Exam00 : 
+    ascii_character : 
+        - The subject assignment name and expected name/file in subject is mismatched (ascii_character_v1).
+    ft_isdigit :
+        - The subject asks to write a function that takes a character but the prototype takes an int; (taking an int will implicitly typecast the character thus making the ex meaningless -ascii_character has typecasting so the student should be aware of it-) and one digit is missing (0).
+        - Missing example.
+    ft_isconsonent : 
+        - The is_consonant.c file does not specify if "y" is a consonant, might cause issues.
+        - The main.c file does not have a "unistd.h" inclusion, causing the grading to fail.
+        - The subject assignment name and expected name/file in subject is mismatched (ft_isconsonent_v1).
+    is_vowel : 
+        - The subject assignment name and expected name/file in subject is mismatched (is_vowel_v1).
+    frequency_checker : 
+        - The subject assignment name and expected name/file in subject is mismatched (frequency_checker_v1).
+    ft_mod : 
+        - Function ft_mod is declared as return type void in correction file.
+        - Generator file has a run test function that takes a divisor and a value, the test passes strings like "42" "5" as one argument
+        - When passing the assignment i've encountered an error while perfoming the grading job, the error was "[Errno 2] No such file or directory 'ref_exe'", i couldn't recreate it later on.
+
+Exam01 : 
+    prev_character : 
+        - The subject assignment name and expected name/file in subject is mismatched (prev_character_v1)
+    length_words :
+        - The main.c file is missing.
+    remove_vowels :
+        - The main.c file is missing.
+    rectangle_perimeter :
+        - Example not provided.
+    triangle_parimeter : 
+        - Example not provided.
+    ft_sqrt : 
+        - Example not provided.
+    ascii_character : 
+        - The subject assignment name and expected name/file in subject is mismatched (ascii_character_v2).
+        - The main.c file is missing
+    next_character : 
+        - The subject assignment name and expected name/file in subject is mismatched (next_character_v1)
+    
+Exam02 : 
+    prev_character :
+        - The subject assignment name and expected name/file in subject is mismatched (prev_character_v1)
+        - the main.c file is missing
+    decimal_to_binary : 
+        - The main.c file is missing
+    binary_to_decimal : 
+        - The generator file is misspelled.
+    size_variables :    
+        - The subject assignment name and expected name/file in subject is mismatched (size_variable, singular)
+            - The main.c file is missing.
+    ft_strstr : 
+        - The subject assignment name and expected name/file in subject is mismatched (ft_div).
+    sort_words : 
+        - The main.c file is missing.
+    volume_cube :
+        - Example not provided.
+    ascii_character : 
+        - The subject assignment name and expected name/file in subject is mismatched (ascii_character_v2).
+        - The main.c file is missing
+    volume_cuboid :
+        - Example not provided.
+    next_character :
+        - The main.c file is missing.
+    
+ExamFinal :
+    prev_character :
+        - The subject assignment name and expected name/file in subject is mismatched (prev_character_v1)
+        - the main.c file is missing
+    add_complex :
+        - The main.c file is missing.
+        - subject file is missnamed as add_complex.en.txt instead of subject.en.txt.
+    dicimal_to_binary : 
+        - The main.c file is missing.
+        - The generator file is misspelled.
+    ft_mod : 
+        - Function ft_mod is declared as return type void in correction file.
+        - Generator file has a run test function that takes a divisor and a value, the test passes strings like "42" "5" as one argument
+        - When passing the assignment i've encountered an error while perfoming the grading job, the error was "[Errno 2] No such file or directory 'ref_exe'", i couldn't recreate it later on.
+    sub_complex.c : 
+        - Small issue with naming "copier and complete this code, and create the subtraction of 2 numbers complex.", the question in generale isn't polished.
+    list_trait : 
+        - The main.c file is missing
+    remove_vowels :
+        - The main.c file is missing
+    ft_strstr : 
+        - The subject assignment name and expected name/file in subject is mismatched (ft_div).
+    is_vowel : 
+        - The main.c file is missing
+    sort_words : 
+        - The main.c file is missing
+    naahio : 
+        - the correction folder is missing.
+    volume_cube :
+        - Example not provided.
+    ascii_character : 
+        - The subject assignment name and expected name/file in subject is mismatched (ascii_character_v2).
+        - The main.c file is missing.
+    volume_cuboid :
+        - Example not provided.
+    is_consonant : 
+        - Example not provided.
+        - The main.c file is missing
+    next_character : 
+        - The main.c file is missing
+    

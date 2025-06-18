@@ -1,0 +1,20 @@
+
+name: mult_complex
+
+unit: c
+
+compile_user: True
+
+white_list:
+    - atoi
+    - printf
+user_files:
+    - mult_complex.c
+
+common_files:
+
+tests:
+    method: typical
+    count: 6
+
+python3: true

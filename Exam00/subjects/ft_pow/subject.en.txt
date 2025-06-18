@@ -1,0 +1,21 @@
+Assignment name  : ft_pow
+Expected files   : ft_pow.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that returns the power of a integer number:
+    - if the pow is 0 return 1;
+
+Your function must be declared as follows:
+
+    int ft_pow(int num, int pow);
+
+Examples:
+
+$>./ft_pow(-2, 3) = -8
+$>./ft_pow(-2, 4) = 16
+$>./ft_pow(5, -3) = 0
+$>./ft_pow(0, 3) = 0
+$>./ft_pow(0, 0) = 1
+$>./ft_pow(0, -2) = 1

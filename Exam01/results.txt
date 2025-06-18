@@ -1,0 +1,177 @@
+
+📁 Checking subject: prev_charcter
+✅ subject.en.txt found.
+❌ Assignment name mismatch: found 'prev_character_v1', expected 'prev_charcter'
+✅ Example content found after 'Example'.
+❌ prev_charcter.c is missing.
+   ⚠️ Possible typo: prev_character.c (expected: prev_charcter.c)
+✅ generator.py found.
+✅ main.c found.
+✅ profile.yml found.
+⚠️ Extra or suspicious files found:
+   - prev_character.c
+
+📁 Checking subject: ft_str_is_alpha
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+❌ No 'Example' section found.
+✅ ft_str_is_alpha.c found.
+✅ generator.py found.
+✅ main.c found.
+✅ profile.yml found.
+
+📁 Checking subject: length_words
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+✅ Example content found after 'Example'.
+✅ length_words.c found.
+✅ generator.py found.
+❌ main.c is missing.
+✅ profile.yml found.
+
+📁 Checking subject: remove_duplicate
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+✅ Example content found after 'Example'.
+✅ remove_duplicate.c found.
+✅ generator.py found.
+✅ main.c found.
+✅ profile.yml found.
+
+📁 Checking subject: remove_vowels
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+✅ Example content found after 'Example'.
+✅ remove_vowels.c found.
+✅ generator.py found.
+❌ main.c is missing.
+✅ profile.yml found.
+
+📁 Checking subject: ft_abs
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+✅ Example content found after 'Example'.
+✅ ft_abs.c found.
+✅ generator.py found.
+✅ main.c found.
+✅ profile.yml found.
+
+📁 Checking subject: rectangle_perimeter
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+❌ No 'Example' section found.
+✅ rectangle_perimeter.c found.
+✅ generator.py found.
+✅ main.c found.
+✅ profile.yml found.
+
+📁 Checking subject: triangle_perimeter
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+❌ No 'Example' section found.
+✅ triangle_perimeter.c found.
+✅ generator.py found.
+✅ main.c found.
+✅ profile.yml found.
+
+📁 Checking subject: ft_sqrt
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+❌ No 'Example' section found.
+✅ ft_sqrt.c found.
+✅ generator.py found.
+✅ main.c found.
+✅ profile.yml found.
+
+📁 Checking subject: ft_strjoin
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+❌ No 'Example' section found.
+✅ ft_strjoin.c found.
+✅ generator.py found.
+✅ main.c found.
+✅ profile.yml found.
+
+📁 Checking subject: factorial_number
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+✅ Example content found after 'Example'.
+✅ factorial_number.c found.
+✅ generator.py found.
+✅ main.c found.
+✅ profile.yml found.
+
+📁 Checking subject: sum_n
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+✅ Example content found after 'Example'.
+✅ sum_n.c found.
+✅ generator.py found.
+✅ main.c found.
+✅ profile.yml found.
+
+📁 Checking subject: ft_strcat
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+❌ No 'Example' section found.
+✅ ft_strcat.c found.
+✅ generator.py found.
+✅ main.c found.
+✅ profile.yml found.
+
+📁 Checking subject: ft_pow
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+✅ Example content found after 'Example'.
+✅ ft_pow.c found.
+✅ generator.py found.
+✅ main.c found.
+✅ profile.yml found.
+
+📁 Checking subject: ascii_charcater_v2
+✅ subject.en.txt found.
+❌ Assignment name mismatch: found 'ascii_character_v2', expected 'ascii_charcater_v2'
+✅ Example content found after 'Example'.
+❌ ascii_charcater_v2.c is missing.
+   ⚠️ Possible typo: ascii_character_v2.c (expected: ascii_charcater_v2.c)
+✅ generator.py found.
+❌ main.c is missing.
+✅ profile.yml found.
+⚠️ Extra or suspicious files found:
+   - ascii_character_v2.c
+
+📁 Checking subject: fix_z
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+❌ No 'Example' section found.
+✅ fix_z.c found.
+✅ generator.py found.
+❌ main.c is missing.
+✅ profile.yml found.
+
+📁 Checking subject: fix_a
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+❌ No 'Example' section found.
+✅ fix_a.c found.
+✅ generator.py found.
+❌ main.c is missing.
+✅ profile.yml found.
+
+📁 Checking subject: ft_strdiff
+✅ subject.en.txt found.
+✅ Assignment name matches folder.
+✅ Example content found after 'Example'.
+✅ ft_strdiff.c found.
+✅ generator.py found.
+✅ main.c found.
+✅ profile.yml found.
+
+📁 Checking subject: next_character
+✅ subject.en.txt found.
+❌ Assignment name mismatch: found 'next_character_v1', expected 'next_character'
+✅ Example content found after 'Example'.
+✅ next_character.c found.
+✅ generator.py found.
+✅ main.c found.
+✅ profile.yml found.

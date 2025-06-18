@@ -1,0 +1,11 @@
+Assignment name  : ft_str_is_alpha
+Expected files   : ft_str_is_alpha.c
+Allowed functions:
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that checks if a string contains only alphabetical characters (a-z, A-Z).
+
+Your function must be declared as follows:
+
+int ft_str_is_alpha(char *str);

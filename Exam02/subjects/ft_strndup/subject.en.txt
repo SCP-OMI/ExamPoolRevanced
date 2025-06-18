@@ -1,0 +1,11 @@
+Assignment name  : ft_strndup
+Expected files   : ft_strndup.c
+Allowed functions: malloc, free
+Version          : 1
+--------------------------------------------------------------------------------
+
+Write a function that duplicates the first n characters of a string.
+
+Your function must be declared as follows:
+
+char *ft_strndup(const char *src, size_t n);
