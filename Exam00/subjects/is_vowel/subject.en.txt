@@ -1,5 +1,5 @@
-Assignment name  : is_vowel_v1
-Expected files   : is_vowel_v1.c
+Assignment name  : is_vowel
+Expected files   : is_vowel.c
 Allowed functions: 
 Version          : v1
 --------------------------------------------------------------------------------

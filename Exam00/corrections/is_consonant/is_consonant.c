@@ -1,5 +1,5 @@
 #include <unistd.h>
-
+ 
 int is_lower_consonant(char c)
 {
     return (c >= 'b' && c <= 'z' && c != 'e' && c != 'i' && c != 'o' && c != 'u');

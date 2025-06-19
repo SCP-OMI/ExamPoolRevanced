@@ -1,17 +1,17 @@
-Assignment name  : is_consonant_v1
-Expected files   : is_consonant_v1.c
+Assignment name  : is_consonant
+Expected files   : is_consonant.c
 Allowed functions:
 Version          : 1
 --------------------------------------------------------------------------------
 
 Write a function that check if a character is a consonant or not;
-
+hint : 'y' is considered a consonant.
 Your function must be declared as follows:
     int is_consonant(char c):
 
 Example:
 
-    $>  is_consonant ('b') = 1
+    $>  is_consonant('b') = 1
     $>  is_consonant('C') = 1
     $>  is_consonant('o') = 0
     $>  is_consonant('A') = 0

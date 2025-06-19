@@ -24,19 +24,19 @@ def run_test(value, divisor):
     }
 
 def basic_test():
-    return run_test(42, 5)
+    return run_test(42,5)
 
 def zero_divisor_test():
-    return run_test(100, 0)
+    return run_test(100,0)
 
 def negative_divisor_test():
-    return run_test(15, -4)
+    return run_test(15,-4)
 
 def zero_value_test():
-    return run_test(0 ,3)
+    return run_test(0,3)
 
 def large_numbers_test():
-    return run_test(60, 2)
+    return run_test(60,2)
 
 if __name__ == "__main__":
     compile_expected_program()

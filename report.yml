@@ -1,18 +1,18 @@
 Exam00 : 
-    ascii_character : 
-        - The subject assignment name and expected name/file in subject is mismatched (ascii_character_v1).
-    ft_isdigit :
-        - The subject asks to write a function that takes a character but the prototype takes an int; (taking an int will implicitly typecast the character thus making the ex meaningless -ascii_character has typecasting so the student should be aware of it-) and one digit is missing (0).
-        - Missing example.
-    ft_isconsonent : 
+    ascii_character ✓ : 
+        - The subject assignment name and expected name/file in subject is mismatched (ascii_character_v1). 
+    ft_isdigit ✓✓ :
+        - The subject asks to write a function that takes a character but the prototype takes an int; (taking an int will implicitly typecast the character thus making the ex meaningless
+        - ascii_character has typecasting so the student should be aware of it-) and one digit is missing (0).
+    ft_isconsonent ✓✓✓: 
         - The is_consonant.c file does not specify if "y" is a consonant, might cause issues.
         - The main.c file does not have a "unistd.h" inclusion, causing the grading to fail.
         - The subject assignment name and expected name/file in subject is mismatched (ft_isconsonent_v1).
-    is_vowel : 
+    is_vowel ✓ : 
         - The subject assignment name and expected name/file in subject is mismatched (is_vowel_v1).
-    frequency_checker : 
+    frequency_checker ✓: 
         - The subject assignment name and expected name/file in subject is mismatched (frequency_checker_v1).
-    ft_mod : 
+    ft_mod ✓✓: 
         - Function ft_mod is declared as return type void in correction file.
         - Generator file has a run test function that takes a divisor and a value, the test passes strings like "42" "5" as one argument
         - When passing the assignment i've encountered an error while perfoming the grading job, the error was "[Errno 2] No such file or directory 'ref_exe'", i couldn't recreate it later on.

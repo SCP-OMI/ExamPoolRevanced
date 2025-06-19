@@ -1,5 +1,5 @@
-Assignment name  : frequency_character_v1
-Expected files   : frequency_character_v1.c
+Assignment name  : frequency_character
+Expected files   : frequency_character.c
 Allowed functions:
 Version          : v1
 --------------------------------------------------------------------------------
