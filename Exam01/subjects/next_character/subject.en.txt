@@ -1,6 +1,6 @@
-Assignment name  : next_character_v1
-Expected files   : next_character_v1.c
-Allowed functions: 
+Assignment name  : next_character
+Expected files   : next_character.c
+Allowed functions:
 Version          : 1
 --------------------------------------------------------------------------------
 

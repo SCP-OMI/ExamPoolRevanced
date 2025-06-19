@@ -37,29 +37,29 @@ Exam01 :
         - The subject assignment name and expected name/file in subject is mismatched (next_character_v1)
     
 Exam02 : 
-    prev_character :
+    prev_character ✓ :
         - The subject assignment name and expected name/file in subject is mismatched (prev_character_v1)
-        - the main.c file is missing
-    decimal_to_binary : 
-        - The main.c file is missing
-    binary_to_decimal : 
+        - The main.c file is missing (Subject asks for a program).
+    decimal_to_binary ✓ : 
+        - The main.c file is missing (Subject asks for a program).
+    binary_to_decimal ✓ : 
         - The generator file is misspelled.
-    size_variables :    
+    size_variables ✓ :    
         - The subject assignment name and expected name/file in subject is mismatched (size_variable, singular)
-            - The main.c file is missing.
-    ft_strstr : 
+        - The main.c file is missing (Subject asks for a program).
+    ft_strstr ✓ : 
         - The subject assignment name and expected name/file in subject is mismatched (ft_div).
-    sort_words : 
-        - The main.c file is missing.
-    volume_cube :
+    sort_words ✓ : 
+        - The main.c file is missing (Subject asks for a program).
+    volume_cube ✓ :
         - Example not provided.
-    ascii_character : 
+    ascii_character ✓ : 
         - The subject assignment name and expected name/file in subject is mismatched (ascii_character_v2).
-        - The main.c file is missing
-    volume_cuboid :
+        - The main.c file is missing (Subject asks for a program).
+    volume_cuboid ✓ :
         - Example not provided.
-    next_character :
-        - The main.c file is missing.
+    next_character ✓ :
+        - The main.c file is missing (Subject asks for a program).
     
 ExamFinal :
     prev_character :

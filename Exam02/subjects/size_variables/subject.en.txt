@@ -1,5 +1,5 @@
-Assignment name  : size_variable
-Expected files   : size_variable.c
+Assignment name  : size_variables
+Expected files   : size_variables.c
 Allowed functions: write
 Version          : 
 --------------------------------------------------------------------------------

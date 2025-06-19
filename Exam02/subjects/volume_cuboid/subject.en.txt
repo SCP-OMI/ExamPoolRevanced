@@ -1,7 +1,6 @@
 Assignment name  : volume_cuboid
 Expected files   : volume_cuboid.c
 Allowed functions:
-Version          : 
 --------------------------------------------------------------------------------
 
 Write a function to find volume of cuboid
@@ -11,3 +10,6 @@ Write a function to find volume of cuboid
 Your function must be declared as follows:
     int     volume_cuboid(int l, int b, int h):
 
+Example : 
+    $> volume_cuboid(2, 3, 4) = 24  
+    $> volume_cuboid(5, 5, 5) = 125

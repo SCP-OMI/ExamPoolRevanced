@@ -1,10 +1,7 @@
 Assignment name  : sort_words
 Expected files   : sort_words.c
 Allowed functions: write
-Version          : 
 --------------------------------------------------------------------------------
-
-
 
 Write a program to sort the words of the string in alphabetical order
 

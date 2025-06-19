@@ -1,5 +1,5 @@
-Assignment name  : prev_character_v1
-Expected files   : prev_character_v1.c
+Assignment name  : prev_character
+Expected files   : prev_character.c
 Allowed functions: 
 Version          : 1
 --------------------------------------------------------------------------------

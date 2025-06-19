@@ -1,7 +1,6 @@
-Assignment name  : ascii_character_v2
-Expected files   : ascii_character_v2.c
+Assignment name  : ascii_character
+Expected files   : ascii_character.c
 Allowed functions: write
-Version          : 2
 --------------------------------------------------------------------------------
 
 Write a program that displays an ASCII character followed by a newline ("\n").

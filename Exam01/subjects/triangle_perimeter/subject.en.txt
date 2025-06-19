@@ -1,7 +1,7 @@
 Assignment name  : triangle_perimeter
 Expected files   : triangle_perimeter.c
 Allowed functions:
-Version          : 
+Version          : 1
 --------------------------------------------------------------------------------
 
 Write a function to calculate the perimeter of a triangle:
@@ -10,3 +10,7 @@ with a, b, and c as the sides of the triangle;
 
 Your function must be declared as follows:
     int perimeter_triangle(int a, int b, int c):
+
+Example :
+    $> perimeter_triangle(3, 4, 5) = 12  
+    $> perimeter_triangle(10, 10, 10) = 30

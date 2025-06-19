@@ -1,5 +1,5 @@
 
-name: ascii_character_v2
+name: ascii_character
 
 unit: c
 
@@ -9,7 +9,7 @@ white_list:
     - write
 
 user_files:
-    - ascii_character_v2.c
+    - ascii_character.c
 
 common_files:
 

@@ -3,7 +3,7 @@
 
 float circle_perimeter(float radius);
 
-int main(int ac, char **av)
+int main(int argc, char **argv)
 {
     if (argc != 2 || argv[1][0] == '\0')
     {
