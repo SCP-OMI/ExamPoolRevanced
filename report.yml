@@ -18,22 +18,22 @@ Exam00 :
         - When passing the assignment i've encountered an error while perfoming the grading job, the error was "[Errno 2] No such file or directory 'ref_exe'", i couldn't recreate it later on.
 
 Exam01 : 
-    prev_character : 
+    prev_character ✓: 
         - The subject assignment name and expected name/file in subject is mismatched (prev_character_v1)
-    length_words :
-        - The main.c file is missing.
-    remove_vowels :
-        - The main.c file is missing.
-    rectangle_perimeter :
+    length_words ✓:
+        - The main.c file is missing (Subject asks for a program).
+    remove_vowels ✓ :
+        - The main.c file is missing (Subject asks for a program).
+    rectangle_perimeter ✓ :
         - Example not provided.
-    triangle_parimeter : 
+    triangle_parimeter  ✓ : 
         - Example not provided.
-    ft_sqrt : 
+    ft_sqrt ✓ : 
         - Example not provided.
-    ascii_character : 
+    ascii_character ✓✓ : 
         - The subject assignment name and expected name/file in subject is mismatched (ascii_character_v2).
-        - The main.c file is missing
-    next_character : 
+        - The main.c file is missing (Subject asks for a program).
+    next_character ✓ : 
         - The subject assignment name and expected name/file in subject is mismatched (next_character_v1)
     
 Exam02 : 
