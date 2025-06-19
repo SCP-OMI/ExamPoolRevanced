@@ -1,5 +1,5 @@
-Assignment name  : ft_div
-Expected files   : ft_div.c
+Assignment name  : ft_strstr
+Expected files   : ft_strstr.c
 Allowed functions:
 Version          : 1
 --------------------------------------------------------------------------------

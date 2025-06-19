@@ -65,9 +65,12 @@ ExamFinal :
     prev_character :
         - The subject assignment name and expected name/file in subject is mismatched (prev_character_v1)
         - the main.c file is missing
+        - change  prev_charcter to prev_character in subject  (done)
+        - change  prev_charcter to prev_character  in correction (done)
+        -  main.c is missing. 
     add_complex :
         - The main.c file is missing.
-        - subject file is missnamed as add_complex.en.txt instead of subject.en.txt.
+        - subject file is missnamed as add_complex.en.txt instead of subject.en.txt. (done)
     dicimal_to_binary : 
         - The main.c file is missing.
         - The generator file is misspelled.
@@ -82,7 +85,7 @@ ExamFinal :
     remove_vowels :
         - The main.c file is missing
     ft_strstr : 
-        - The subject assignment name and expected name/file in subject is mismatched (ft_div).
+        - The subject assignment name and expected name/file in subject is mismatched (ft_div). (done)
     is_vowel : 
         - The main.c file is missing
     sort_words : 
@@ -92,7 +95,8 @@ ExamFinal :
     volume_cube :
         - Example not provided.
     ascii_character : 
-        - The subject assignment name and expected name/file in subject is mismatched (ascii_character_v2).
+        - The subject assignment name and expected name/file in subject is mismatched (ascii_character_v2). change to     ascii_character(done)
+        - folder name   change  ascii_character_v2 to     ascii_character (done )
         - The main.c file is missing.
     volume_cuboid :
         - Example not provided.

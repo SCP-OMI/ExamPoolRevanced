@@ -1,5 +1,5 @@
-Assignment name  : ascii_character_v2
-Expected files   : ascii_character_v2.c
+Assignment name  : ascii_character
+Expected files   : ascii_character.c
 Allowed functions: write
 Version          : 2
 --------------------------------------------------------------------------------
@@ -10,10 +10,10 @@ If the number of arguments is not 1, display only a newline.
 
 Example:
 
-$> ./ascii_character_v2 'A' | cat -e
+$> ./ascii_character 'A' | cat -e
 65$
-$> ./ascii_character_v2 'z' | cat -e
+$> ./ascii_character 'z' | cat -e
 122$
-$>./ascii_character_v2 | cat -e
+$>./ascii_character | cat -e
 $
-$>./ascii_character_v2 "" | cat -e
+$>./ascii_character "" | cat -e
